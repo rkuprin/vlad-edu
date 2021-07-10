@@ -24,6 +24,8 @@ const PostsView = () => {
             <PostEdit />
           </Route>
         </Switch>
+
+        <div className='posts-list'></div>
       </div>
     </div>
   )
